@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Formulario</h1>
+        <form class="formulario">
+
+            <p>
+                <input type="text" name="text" id="nome" placeholder="Informe seu Nome"  required/>
+                <label for="nome"></label>
+            </p>
+
+            <p>
+                <input type="text" name="telefone" id="telefone" placeholder="Qual o seu telefone" required/>
+                <label for="telefone"></label>
+            </p>
+
+            <p>
+                <input type="email" name="email" id="email" placeholder="Informe seu email" required/>
+                <label for="email"></label>
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar credenciais" id="btn">
+            </p>
+            
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
